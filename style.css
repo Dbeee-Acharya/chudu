@@ -4,6 +4,7 @@
     font-family: "Playwrite FR Moderne", cursive;
     font-optical-sizing: auto;
     font-style: normal;
+    overflow: hidden;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
 
 html {
     height: 100%;
+    overflow-x: hidden;
 }
 
 .main-container {
@@ -86,7 +88,45 @@ html {
 }
 
 .answer-no.active {
-    display: block;
+    display: flex;
+}
+
+.answer-yes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+
+.answer-yes.active {
+    display: flex;
+}
+
+.answer-yes p {
+    margin: 1rem auto 0;
+}
+
+.answer-yes img {
+    width: 40%;
+}
+
+.images {
+    position: relative;
+}
+
+.flower-2 {
+    position: relative;
+    left: -60px;
+}
+
+.penguin {
+    width: 90%;
+    position:absolute;
+    left: 50%;
+    bottom: 10%;
 }
 
 
