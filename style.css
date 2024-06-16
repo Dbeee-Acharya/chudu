@@ -102,7 +102,7 @@ html {
 }
 
 .answer-yes.active {
-    display: flex;
+    display: flex   ;
 }
 
 .answer-yes p {
@@ -115,6 +115,7 @@ html {
 
 .images {
     position: relative;
+    text-align: left;
 }
 
 .flower-2 {
