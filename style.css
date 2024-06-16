@@ -121,8 +121,8 @@ html {
 }
 
 .flower-2 {
-    position: relative;
-    left: -60px;
+    position: absolute;
+    left: 70px;
 }
 
 .penguin {
