@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 
 * {
-    font-family: "Playwrite FR Moderne", cursive;
+    font-family: "Playwrite NG Modern", cursive;
     font-optical-sizing: auto;
     font-style: normal;
     overflow: hidden;
+
 }
 
 body {
